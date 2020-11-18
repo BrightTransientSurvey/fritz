@@ -1,0 +1,1311 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "isLatest": true,
+      "provenance": "https://github.com/BrightTransientSurvey/fritz",
+      "name": "BTS Taxonomy",
+      "created_at": "2020-11-18T18:40:30",
+      "version": "0.1",
+      "hierarchy": {
+        "class": "Time-domain Source",
+        "subclasses": [
+          {
+            "class": "Nonstellar",
+            "subclasses": [
+              {
+                "class": "DM annihilation",
+                "other names": [
+                  "dark matter annihilation"
+                ]
+              },
+              {
+                "class": "Solar System Object",
+                "other names": [
+                  "SSO"
+                ]
+              },
+              {
+                "tags": [
+                  "extragalactic",
+                  "black hole"
+                ],
+                "class": "Galactic Nuclei",
+                "subclasses": [
+                  {
+                    "class": "Tidal Disruption Event",
+                    "other names": [
+                      "TDE"
+                    ]
+                  },
+                  {
+                    "class": "AGN",
+                    "subclasses": [
+                      {
+                        "class": "Seyfert",
+                        "other names": [
+                          "Sy"
+                        ]
+                      },
+                      {
+                        "class": "QSO",
+                        "other names": [
+                          "Quasistellar Object"
+                        ]
+                      },
+                      {
+                        "class": "Blazar",
+                        "subclasses": [
+                          {
+                            "class": "OVV",
+                            "other names": [
+                              "optically violent variable"
+                            ]
+                          },
+                          {
+                            "class": "BL Lac"
+                          }
+                        ]
+                      }
+                    ],
+                    "other names": [
+                      "Active Galactic Nuclei"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "time delay"
+                    ],
+                    "class": "gravitational lensing",
+                    "other names": [
+                      "lensing"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "class": "Stellar variable",
+            "subclasses": [
+              {
+                "class": "Cataclysmic",
+                "subclasses": [
+                  {
+                    "class": "compact merger",
+                    "subclasses": [
+                      {
+                        "tags": [
+                          "neutron star",
+                          "short GRB"
+                        ],
+                        "class": "DNS",
+                        "subclasses": [
+                          {
+                            "class": "kilonova",
+                            "other names": [
+                              "KN"
+                            ]
+                          }
+                        ],
+                        "other names": [
+                          "double neutron star",
+                          "NS-NS"
+                        ]
+                      },
+                      {
+                        "tags": [
+                          "black hole",
+                          "neutron star",
+                          "short GRB"
+                        ],
+                        "class": "NS-BH",
+                        "subclasses": [
+                          {
+                            "class": "kilonova",
+                            "other names": [
+                              "KN"
+                            ]
+                          }
+                        ],
+                        "other names": [
+                          "NSBH"
+                        ]
+                      }
+                    ],
+                    "other names": [
+                      "gravitational wave event"
+                    ]
+                  },
+                  {
+                    "class": "GRB",
+                    "subclasses": [
+                      {
+                        "tags": [
+                          "gravitational waves",
+                          "compact object"
+                        ],
+                        "class": "short GRB",
+                        "other names": [
+                          "SHB",
+                          "sGRB"
+                        ]
+                      },
+                      {
+                        "class": "long GRB",
+                        "other names": [
+                          "LSB",
+                          "lGRB",
+                          "long-soft GRB"
+                        ]
+                      }
+                    ],
+                    "other names": [
+                      "Gamma-ray bursts",
+                      "GRBs"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "explosive",
+                      "transient"
+                    ],
+                    "class": "Supernova",
+                    "subclasses": [
+                      {
+                        "tags": [
+                          "hydrogen poor"
+                        ],
+                        "class": "Type I",
+                        "subclasses": [
+                          {
+                            "tags": [
+                              "white dwarf",
+                              "cosmology",
+                              "thermonuclear"
+                            ],
+                            "class": "Ia",
+                            "subclasses": [
+                              {
+                                "tags": [
+                                  "peculiar"
+                                ],
+                                "class": "Ia-pec",
+                                "other names": [
+                                  "SN Ia-pec",
+                                  "SNIa-pec",
+                                  "Ia-p"
+                                ]
+                              }
+                            ],
+                            "other names": [
+                              "Ia-p",
+                              "SN Ia",
+                              "SNIa",
+                              "supernovae Ia",
+                              "SNe Ia"
+                            ]
+                          },
+                          {
+                            "tags": [
+                              "core collapse",
+                              "helium rich"
+                            ],
+                            "class": "Ib",
+                            "subclasses": [
+                              {
+                                "class": "Ib-p",
+                                "other names": [
+                                  "SN Ib-p"
+                                ]
+                              }
+                            ],
+                            "other names": [
+                              "SN Ib",
+                              "SNIb",
+                              "supernovae Ib",
+                              "SNe Ib"
+                            ]
+                          },
+                          {
+                            "tags": [
+                              "core collapse",
+                              "no helium"
+                            ],
+                            "class": "Ic",
+                            "subclasses": [
+                              {
+                                "tags": [
+                                  "broad lines",
+                                  "high-velocity",
+                                  "massive stars"
+                                ],
+                                "class": "Ic-BL",
+                                "other names": [
+                                  "SN IcBL",
+                                  "SN Ic-BL"
+                                ]
+                              },
+                              {
+                                "tags": [
+                                  "bright",
+                                  "super-luminous"
+                                ],
+                                "class": "SLSN I",
+                                "other names": [
+                                  "SLSN Type I"
+                                ]
+                              },
+                              {
+                                "tags": [
+                                  "peculiar"
+                                ],
+                                "class": "Ic-p",
+                                "other names": [
+                                  "SN Ic-p"
+                                ]
+                              }
+                            ],
+                            "other names": [
+                              "SN Ic",
+                              "SNIc",
+                              "supernovae Ic",
+                              "SNe Ic"
+                            ]
+                          },
+                          {
+                            "tags": [
+                              "core collapse",
+                              "unclear which subclass"
+                            ],
+                            "class": "Ib/c",
+                            "other names": [
+                              "SN Ib/c",
+                              "SNIb/c",
+                              "SN Ibc"
+                            ]
+                          }
+                        ],
+                        "other names": [
+                          "SN Type I"
+                        ]
+                      },
+                      {
+                        "tags": "hydrogen rich",
+                        "class": "Type II",
+                        "subclasses": [
+                          {
+                            "tags": [
+                              "narrow line"
+                            ],
+                            "class": "IIn",
+                            "sublasses": [
+                              {
+                                "tags": [
+                                  "bright",
+                                  "super-luminous"
+                                ],
+                                "class": "SNLN II",
+                                "other names": [
+                                  "SLSN Type II"
+                                ]
+                              }
+                            ],
+                            "other names": [
+                              "SN IIn",
+                              "SNe IIn"
+                            ]
+                          },
+                          {
+                            "tags": [
+                              "plateau"
+                            ],
+                            "class": "IIP",
+                            "other names": [
+                              "SNIIP",
+                              "SN II-P",
+                              "SN Type IIP"
+                            ]
+                          },
+                          {
+                            "tags": [
+                              "linear"
+                            ],
+                            "class": "IIL",
+                            "other names": [
+                              "SNIIP",
+                              "SN II-L",
+                              "SN Type IIL"
+                            ]
+                          },
+                          {
+                            "tags": [
+                              "helium rich"
+                            ],
+                            "class": "IIb",
+                            "other names": [
+                              "SNIIb",
+                              "SN II-b",
+                              "SN Type IIb"
+                            ]
+                          },
+                          {
+                            "tags": [
+                              "peculiar"
+                            ],
+                            "class": "IIpec",
+                            "comments": "SN 1987a",
+                            "other names": [
+                              "SNIIp",
+                              "SN II-p",
+                              "SN Type IIp",
+                              "IIpec",
+                              "II-p"
+                            ]
+                          }
+                        ],
+                        "other names": [
+                          "SN Type II"
+                        ]
+                      }
+                    ],
+                    "other names": [
+                      "SN",
+                      "sn",
+                      "sne",
+                      "supernova",
+                      "supernovae"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "binary"
+                    ],
+                    "class": "Novae",
+                    "subclasses": [
+                      {
+                        "class": "Classical Nova",
+                        "other names": []
+                      },
+                      {
+                        "class": "Nova-like",
+                        "subclasses": [
+                          {
+                            "class": "SW Sex",
+                            "other names": []
+                          },
+                          {
+                            "class": "VY Scl",
+                            "other names": []
+                          },
+                          {
+                            "class": "UX UMa",
+                            "other names": []
+                          },
+                          {
+                            "class": "AM CVn",
+                            "other names": []
+                          }
+                        ],
+                        "other names": []
+                      },
+                      {
+                        "class": "Polars",
+                        "subclasses": [
+                          {
+                            "class": "AM Her",
+                            "other names": []
+                          },
+                          {
+                            "class": "DQ Her",
+                            "other names": []
+                          }
+                        ]
+                      },
+                      {
+                        "class": "Recurrent Nova",
+                        "other names": []
+                      },
+                      {
+                        "class": "U Gem",
+                        "subclasses": [
+                          {
+                            "class": "SS Cyg",
+                            "other names": []
+                          },
+                          {
+                            "class": "Z Cam",
+                            "other names": []
+                          },
+                          {
+                            "class": "SU UMaj",
+                            "subclasses": [
+                              {
+                                "class": "ER U Maj",
+                                "other names": []
+                              },
+                              {
+                                "class": "WZ Sge",
+                                "other names": []
+                              }
+                            ],
+                            "other names": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "Eclipsing",
+                "subclasses": [
+                  {
+                    "tags": [
+                      "types A/B",
+                      "ellipsoidal",
+                      "giant/supergiant",
+                      "accretion disk"
+                    ],
+                    "class": "Beta Lyrae",
+                    "other names": [
+                      "EB",
+                      "B Lyr"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "neutron star",
+                      "main sequence companion",
+                      "standard candle"
+                    ],
+                    "class": "X-Ray Burster",
+                    "other names": [
+                      "XB",
+                      "XRay Burster"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "exoplanet"
+                    ],
+                    "class": "System with Planet(s)",
+                    "other names": [
+                      "EP",
+                      "System with planet",
+                      "Binary star system w/ planet",
+                      "Binary star system with planet",
+                      "Planetary transit"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "active chromosphere",
+                      "eruptive"
+                    ],
+                    "class": "RS CVn",
+                    "other names": [
+                      "RS Canum Venaticorum",
+                      "RS Can Venat",
+                      "RS",
+                      "radio",
+                      "X-ray",
+                      "Ca II"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "contact binary",
+                      "ellipsoidal"
+                    ],
+                    "class": "W Ursae Maj",
+                    "subclasses": [
+                      {
+                        "tags": [
+                          "types A/F"
+                        ],
+                        "class": "EWa",
+                        "other names": [
+                          "A-type W UMa",
+                          "W Uma a"
+                        ]
+                      },
+                      {
+                        "tags": [
+                          "types G/K"
+                        ],
+                        "class": "EWw",
+                        "other names": [
+                          "W-type W UMa",
+                          "W UMa w"
+                        ]
+                      }
+                    ],
+                    "other names": [
+                      "EW",
+                      "W Ursae Majoris",
+                      "W UMa"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "main sequence star",
+                      "less massive companion",
+                      "semidetached"
+                    ],
+                    "class": "Algol",
+                    "other names": [
+                      "EA",
+                      "Algol-type",
+                      "Beta Persei-type",
+                      "Beta Per"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "cataclysmic"
+                    ],
+                    "class": "Symbiotic Var",
+                    "other names": [
+                      "Symbiotic Variable",
+                      "ZAND"
+                    ]
+                  }
+                ]
+              },
+              {
+                "class": "Rotating",
+                "subclasses": [
+                  {
+                    "tags": [
+                      "type BOp-B9p",
+                      "main sequence",
+                      "strong He I/Si III"
+                    ],
+                    "class": "SX Ari",
+                    "other names": [
+                      "SXA",
+                      "SXARI",
+                      "SX Arietus",
+                      "SX Ari",
+                      "helium variable"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "type B8p-A7p",
+                      "main sequence",
+                      "chemically peculiar"
+                    ],
+                    "class": "Alpha2 CVn",
+                    "subclasses": [
+                      {
+                        "tags": [
+                          "class Ap",
+                          "instability strip"
+                        ],
+                        "class": "Rapidly Oscillating",
+                        "other names": [
+                          "ACVO",
+                          "roAp"
+                        ]
+                      }
+                    ],
+                    "other names": [
+                      "Alpha2 Canum Venaticorum",
+                      "ACV"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "class G/K",
+                      "binary merger",
+                      "ellipsoidal",
+                      "starspots",
+                      "high-velocity"
+                    ],
+                    "class": "FK Comae Bern",
+                    "other names": [
+                      "FK Comae Berenices",
+                      "FKCom",
+                      "FKCOM"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "neutron star",
+                      "regular period"
+                    ],
+                    "class": "Pulsar",
+                    "other names": [
+                      "PSR"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "class G/K/M",
+                      "dwarf",
+                      "starspots",
+                      "quasiperiodic"
+                    ],
+                    "class": "BY Dra",
+                    "other names": [
+                      "BY",
+                      "BYDraconis"
+                    ]
+                  }
+                ]
+              },
+              {
+                "tags": [
+                  "chromospheric process",
+                  "corona process"
+                ],
+                "class": "Eruptive",
+                "subclasses": [
+                  {
+                    "tags": [
+                      "types M/K",
+                      "dwarf",
+                      "magnetic reconnection"
+                    ],
+                    "class": "UV Ceti",
+                    "other names": [
+                      "UV",
+                      "Flare star",
+                      "UV Cet-type"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "type B",
+                      "supergiant/hypergiant",
+                      "S Doradus instability strip",
+                      "high luminosity"
+                    ],
+                    "class": "S Doradus",
+                    "other names": [
+                      "S Dor",
+                      "SDor",
+                      "SDOR",
+                      "Luminous blue variable",
+                      "LBV"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "broad lines"
+                    ],
+                    "class": "Wolf-Rayet",
+                    "other names": [
+                      "WR"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "Be star",
+                      "accretion disk"
+                    ],
+                    "class": "Gamma Cas",
+                    "subclasses": [
+                      {
+                        "class": "Be",
+                        "other names": []
+                      },
+                      {
+                        "class": "Shell",
+                        "other names": []
+                      }
+                    ],
+                    "other names": [
+                      "Gamma Cassiopeiae",
+                      "GCas",
+                      "GCAS"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "pre-main sequence",
+                      "accretion disk",
+                      "T Tauri evolution",
+                      "possible Orion subtype"
+                    ],
+                    "class": "FU Ori",
+                    "other names": [
+                      "FU",
+                      "FUor",
+                      "FU Ori",
+                      "FU Orionis"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "pre-main sequence",
+                      "diffuse nebulae"
+                    ],
+                    "class": "Orion",
+                    "subclasses": [
+                      {
+                        "class": "w/Abs",
+                        "other names": [
+                          "IN(YY)"
+                        ]
+                      },
+                      {
+                        "tags": [
+                          "types F/G/K/M",
+                          "pre-main sequence",
+                          "strong chromospheric lines",
+                          "Hayashi track"
+                        ],
+                        "class": "T Tauri",
+                        "subclasses": [
+                          {
+                            "class": "TTc",
+                            "other names": [
+                              "Classical TTS",
+                              "Classical T Tauri"
+                            ]
+                          },
+                          {
+                            "tags": [
+                              "Weak emission lines"
+                            ],
+                            "class": "TTw",
+                            "other names": [
+                              "Weak-line TTS",
+                              "Weak-line T Tauri"
+                            ]
+                          }
+                        ],
+                        "other names": [
+                          "TTS",
+                          "TT",
+                          "INT",
+                          "IT"
+                        ]
+                      }
+                    ],
+                    "other names": [
+                      "IN"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "types F/G",
+                      "supergiant"
+                    ],
+                    "class": "R Cor Borealis",
+                    "subclasses": [
+                      {
+                        "tags": [
+                          "AGB",
+                          "carbon-rich"
+                        ],
+                        "class": "DY Per",
+                        "links": [
+                          "https://en.wikipedia.org/wiki/DY_Persei_variable"
+                        ],
+                        "other names": [
+                          "DY Persei"
+                        ]
+                      }
+                    ],
+                    "other names": [
+                      "R Coronae Borealis",
+                      "RCB",
+                      "R CrB",
+                      "R Cor Bor"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "types A/B",
+                      "pre-main sequence"
+                    ],
+                    "class": "Herbig AE/BE",
+                    "other names": [
+                      "HAeBe"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "irregular"
+                    ],
+                    "class": "FS CMa",
+                    "other names": [
+                      "FS Canis Majoris"
+                    ]
+                  }
+                ]
+              },
+              {
+                "tags": [
+                  "expanding/contracting outer layers"
+                ],
+                "class": "Pulsating",
+                "subclasses": [
+                  {
+                    "tags": [
+                      "main sequence"
+                    ],
+                    "class": "Gamma Doradus",
+                    "other names": [
+                      "GDOR",
+                      "GDor"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "type A2-F5",
+                      "subdwarf",
+                      "instability strip",
+                      "possible Delta Scuti subtype"
+                    ],
+                    "class": "SX Phe",
+                    "other names": [
+                      "SX Phoenicis",
+                      "SXPHE"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "type A/F",
+                      "instability strip",
+                      "standard candle"
+                    ],
+                    "class": "RR Lyrae",
+                    "subclasses": [
+                      {
+                        "class": "RRcl",
+                        "other names": [
+                          "RRCL"
+                        ]
+                      },
+                      {
+                        "class": "RRab",
+                        "other names": [
+                          "RRAB"
+                        ]
+                      },
+                      {
+                        "class": "RRc",
+                        "other names": [
+                          "RRC"
+                        ]
+                      },
+                      {
+                        "class": "RRd",
+                        "other names": [
+                          "RRD"
+                        ]
+                      },
+                      {
+                        "class": "RRe",
+                        "other names": [
+                          "RRE"
+                        ]
+                      }
+                    ],
+                    "other names": [
+                      "RR Lyr",
+                      "RR variable",
+                      "RR",
+                      "cluster variable"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "types A/B",
+                      "supergiant"
+                    ],
+                    "class": "Alpha Cygni",
+                    "other names": [
+                      "Alpha Cyg",
+                      "A Cyg",
+                      "ACYG"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "red giant",
+                      "long period"
+                    ],
+                    "class": "Mira",
+                    "other names": [
+                      "M",
+                      "Long period variable"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "white dwarf"
+                    ],
+                    "class": "Pulsating WD",
+                    "subclasses": [
+                      {
+                        "tags": [
+                          "pre-degenerate"
+                        ],
+                        "class": "GW VIr",
+                        "other names": [
+                          "DOV",
+                          "Pulsating PG 1159"
+                        ]
+                      },
+                      {
+                        "tags": [
+                          "ZZ"
+                        ],
+                        "class": "ZZ Ceti",
+                        "subclasses": [
+                          {
+                            "tags": [
+                              "type DA"
+                            ],
+                            "class": "H abs only",
+                            "other names": [
+                              "DAV",
+                              "H-WD"
+                            ]
+                          },
+                          {
+                            "tags": [
+                              "type DB"
+                            ],
+                            "class": "He abs only",
+                            "other names": [
+                              "DBV",
+                              "DB white dwarf",
+                              "V777 Her",
+                              "He-WD"
+                            ]
+                          },
+                          {
+                            "class": "Showing HeII",
+                            "other names": []
+                          }
+                        ],
+                        "other names": [
+                          "DAV",
+                          "ZZ Cet"
+                        ]
+                      }
+                    ],
+                    "other names": [
+                      "Pulsating white dwarf"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "main sequence"
+                    ],
+                    "class": "Sun analogue",
+                    "other names": [
+                      "Sun analog",
+                      "Solar analogue",
+                      "Solar analog",
+                      "Solar-like"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "instability strip",
+                      "standard candle"
+                    ],
+                    "class": "Delta Scuti",
+                    "subclasses": [
+                      {
+                        "class": "Low-Amp",
+                        "other names": [
+                          "LADS",
+                          "Low-amplitude delta Scuti"
+                        ]
+                      },
+                      {
+                        "class": "High-Amp",
+                        "other names": [
+                          "giant/main sequence",
+                          "HADS",
+                          "High-amplitude delta Scuti",
+                          "Al Velorum"
+                        ]
+                      },
+                      {
+                        "tags": [
+                          "pre-main sequence"
+                        ],
+                        "class": "PMS Delta Scuti",
+                        "other names": [
+                          "Pre-main sequence Delta Scuti"
+                        ]
+                      }
+                    ],
+                    "other names": [
+                      "Delta Sct",
+                      "DSct",
+                      "dwarf cepheid",
+                      "DST",
+                      "DSCT"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "type Bp",
+                      "chemically peculiar",
+                      "supergiant"
+                    ],
+                    "class": "PV Telescopii",
+                    "other names": [
+                      "PVTEL",
+                      "PVTel",
+                      "PV Tel"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "type B",
+                      "main sequence",
+                      "Z bump"
+                    ],
+                    "class": "Beta Cephei",
+                    "other names": [
+                      "BCep",
+                      "B Cep",
+                      "Beta Canis Majoris",
+                      "\u03b2 Cephei",
+                      "BCEP"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "giant/supergiant",
+                      "long period"
+                    ],
+                    "class": "Semiregular",
+                    "subclasses": [
+                      {
+                        "class": "SRa/Z-Aquarii",
+                        "other names": [
+                          "SRA"
+                        ]
+                      },
+                      {
+                        "class": "SRb",
+                        "other names": [
+                          "SRB"
+                        ]
+                      },
+                      {
+                        "class": "SRc",
+                        "other names": [
+                          "SRC"
+                        ]
+                      },
+                      {
+                        "class": "SRd",
+                        "other names": [
+                          "SRD"
+                        ]
+                      }
+                    ],
+                    "other names": [
+                      "SR",
+                      "SRPV",
+                      "semi-regular"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "post-AGB",
+                      "possible Population II Cepheid",
+                      "instability strip",
+                      "long period"
+                    ],
+                    "class": "RV Tau",
+                    "subclasses": [
+                      {
+                        "class": "Const Mean Mag",
+                        "other names": [
+                          "Constant mean magnitude"
+                        ]
+                      },
+                      {
+                        "class": "Var Mean Mag",
+                        "other names": [
+                          "Variable mean magnitude"
+                        ]
+                      }
+                    ],
+                    "other names": [
+                      "RV Tauri",
+                      "RV"
+                    ]
+                  },
+                  {
+                    "tags": [],
+                    "class": "Population II Cepheid",
+                    "subclasses": [
+                      {
+                        "tags": [
+                          "pre-AGB"
+                        ],
+                        "class": "BL Her",
+                        "other names": [
+                          "BL Herculis",
+                          "CWB"
+                        ]
+                      },
+                      {
+                        "tags": [
+                          "types F6-K2",
+                          "blue loop"
+                        ],
+                        "class": "W Vir",
+                        "other names": [
+                          "W Virginis",
+                          "CWA"
+                        ]
+                      }
+                    ],
+                    "other names": [
+                      "Population II Ceph",
+                      "Type II Ceph",
+                      "Type II Cepheid",
+                      "Type-II Ceph",
+                      "Type-II Cepheid",
+                      "CW"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "giant/supergiant",
+                      "instability strip",
+                      "standard candle"
+                    ],
+                    "class": "Cepheid",
+                    "subclasses": [
+                      {
+                        "class": "Anomolous",
+                        "other names": [
+                          "Anomolous Cepheid",
+                          "BLBOO"
+                        ]
+                      },
+                      {
+                        "class": "Mult-mode",
+                        "other names": [
+                          "Double-mode Cepheid",
+                          "Multi-mode Cepheid",
+                          "CEP(B)"
+                        ]
+                      },
+                      {
+                        "tags": [],
+                        "class": "Classical",
+                        "subclasses": [
+                          {
+                            "class": "Symmetrical",
+                            "other names": [
+                              "DCEPS",
+                              "Delta Cep-type Symmetrical"
+                            ]
+                          }
+                        ],
+                        "other names": [
+                          "Population I Cepheid",
+                          "Type I Cepheid",
+                          "DCEP",
+                          "Delta Cepheid",
+                          "Classical Cepheid"
+                        ]
+                      }
+                    ],
+                    "other names": [
+                      "Cep",
+                      "CEP"
+                    ]
+                  },
+                  {
+                    "tags": [
+                      "type B2-B9",
+                      "main sequence"
+                    ],
+                    "class": "SPB",
+                    "other names": [
+                      "53 Persei",
+                      "Slowly Pulsating B-type",
+                      "Slowly Pulsating B"
+                    ]
+                  },
+                  {
+                    "tags": [],
+                    "class": "BLAP",
+                    "other names": [
+                      "Blue Large-Amplitude Pulsator"
+                    ]
+                  }
+                ]
+              },
+              {
+                "tags": [
+                  "stellar lensing",
+                  "gravitational lensing"
+                ],
+                "class": "microlensing",
+                "subclasses": [
+                  {
+                    "class": "binary lens",
+                    "subclass": [
+                      {
+                        "class": "lens with planet"
+                      }
+                    ]
+                  },
+                  {
+                    "class": "triple-system lens"
+                  },
+                  {
+                    "class": "binary source"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "modified": "2020-10-21T06:20:38.351819"
+    },
+    {
+      "id": 2,
+      "isLatest": true,
+      "provenance": null,
+      "name": "Basic Taxonomy",
+      "created_at": "2020-10-21T06:20:38.384895",
+      "version": "0.1.0",
+      "hierarchy": {
+        "class": "Time-domain Source",
+        "subclasses": [
+          {
+            "class": "roid"
+          },
+          {
+            "class": "varstar"
+          },
+          {
+            "class": "transient"
+          },
+          {
+            "class": "AGN"
+          },
+          {
+            "class": "bogus"
+          }
+        ]
+      },
+      "modified": "2020-10-21T06:20:38.384895"
+    }
+  ],
+  "version": "0.9.dev0+git20201117.9e4dd70"
+}
